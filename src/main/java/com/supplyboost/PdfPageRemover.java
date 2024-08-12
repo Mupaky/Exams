@@ -8,8 +8,8 @@ import java.io.IOException;
 public class PdfPageRemover {
 
     public static void main(String[] args) {
-        String sourcePdf = "C:/Users/georg/Desktop/cv_final.pdf";  // Path to your source PDF
-        String destinationPdf = "C:/Users/georg/Desktop/cvdestination.pdf";  // Path for the output PDF
+        String sourcePdf = "cv_final.pdf";  // Path to your source PDF
+        String destinationPdf = "cvdestination.pdf";  // Path for the output PDF
         int pageToRemove = 3;  // Page number to remove (1-based index)
 
         try {
